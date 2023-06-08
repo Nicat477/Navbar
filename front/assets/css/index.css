@@ -1,0 +1,44 @@
+*body{
+  box-sizing:content-box;
+}
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  
+  background-color:aquamarine;
+  padding:0px 16px;
+  align-items:center;
+  line-height: 1px;
+  height: 65px;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.brand{
+  font-weight: bold;
+  font-size: 20px
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.middle{
+  display: flex;
+}
+.middle a{
+  display: block;
+  padding:1.5rem 1rem;
+}
+
+
+.middle li{
+  list-style: none;
+}
+.right{
+  padding-right: 20px;
+}
